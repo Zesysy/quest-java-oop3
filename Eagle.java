@@ -48,16 +48,6 @@ public class Eagle extends Bird implements Fly {
     }
 
     /**
-     * glides, must be in the sky
-     */
-    @Override
-    public void glide() {
-        if (this.flying && this.altitude > 0) {
-            System.out.println("It glides into the air.");
-        }
-    }
-
-    /**
      * fly upward
      * @param meters altitudes decrease
      * @return altitude
